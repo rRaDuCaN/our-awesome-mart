@@ -1,0 +1,63 @@
+.PopOnSideMenu {
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+.PopOnSideMenu .Wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.PopOnSideMenu .Wrapper .SideMenu {
+    overflow-y: auto;
+    background-color: #ffffff;
+    width: 20rem;
+    height: 100%;
+}
+
+.PopOnSideMenu .Wrapper .SideMenu .FullSize {
+    width: calc(100% - 2rem);
+}
+
+.PopOnSideMenu .Wrapper .SideMenu .MainMenu {
+    height: calc(100% - 4rem);
+    width: calc(100% - 2rem);
+    margin: 1rem 1rem 0rem 1rem;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.PopOnSideMenu .ItemsSize {
+    flex-basis: 100%;
+}
+
+.PopOnSideMenu .WrapItem {
+    width: 100%;
+}
+.PopOnSideMenu .PartsWrapper {
+    height: auto;
+}
+
+.PopOnSideMenu .Wrapper .SideMenu .MainMenu .PartOne {
+    height: 10rem;
+}
+
+.PopOnSideMenu .Wrapper .SideMenu .MainMenu .PartTwo {
+    margin-top: 2rem;
+    height: 60rem;
+    border-top: #3ec5e6 solid 4px;
+}
+
+.PopOnSideMenu .Wrapper .SideMenu .MainMenu .PartThree {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 25rem;
+}
+
+

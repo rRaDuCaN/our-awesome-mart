@@ -1,0 +1,19 @@
+.InputSearch {
+    background-color: #ffffff;
+    border-width: 0rem;
+    height: 2.8rem;
+    width: 100%;
+    visibility: visible;
+}
+
+@media screen and (max-width: 1200px) {
+    .InputSearch.InputSearch.InputSearch {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .InputSearch.InputSearch {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,15 @@
+/node_modules
+/our-awesome-mart-demo-client/node_modules
+/our-awesome-mart-demo-server/node_modules
+package-lock.json
+/our-awesome-mart-demo-client/package-lock.json
+/our-awesome-mart-demo-client/yarn.lock
+/our-awesome-mart-demo-server/package-lock.json
+/our-awesome-mart-demo-server/public/
+/our-awesome-mart-demo-server/crawl.js
+/our-awesome-mart-demo-server/getImgs.js
+/our-awesome-mart-demo-server/home.js
+/our-awesome-mart-demo-server/renameImgs.js
+/our-awesome-mart-demo-server/src/shopHomeFurnishing/
+/our-awesome-mart-demo-server/src/shopHomeFurnishing_copy/
+/our-awesome-mart-demo-server/src/shopHomeFurnishing_copy_copy/

@@ -1,0 +1,52 @@
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg6"
+   version="1.1"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297">
+  <defs
+     id="defs10" />
+  <rect
+     id="rect4"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.0261787"
+     width="10"
+     height="10"
+     x="50"
+     y="100" />
+  <rect
+     y="139.99998"
+     x="50"
+     height="10"
+     width="10"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.0261787"
+     id="rect4-7" />
+  <rect
+     y="179.99998"
+     x="50"
+     height="10"
+     width="10"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.0261787"
+     id="rect4-1" />
+  <rect
+     y="100"
+     x="70"
+     height="10"
+     width="80"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.074044"
+     id="rect4-10" />
+  <rect
+     id="rect4-10-0"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.074044"
+     width="80"
+     height="10"
+     x="70"
+     y="139.99998" />
+  <rect
+     id="rect4-10-8"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.074044"
+     width="80"
+     height="10"
+     x="70"
+     y="179.99998" />
+</svg>

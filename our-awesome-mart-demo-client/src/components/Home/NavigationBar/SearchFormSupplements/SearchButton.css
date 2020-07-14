@@ -1,0 +1,11 @@
+.SearchButton {
+    background-color: #ffffff;
+    border-width: 0rem;
+    width: 4rem;
+    height: 2.8rem;
+}
+
+.SearchButton .Magnify {
+    width: 1.4rem;
+    height: 1.4rem;
+}

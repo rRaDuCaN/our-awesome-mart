@@ -1,0 +1,23 @@
+{
+  "name": "our-awesome-mart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "nodemon": "cd ./our-awesome-mart-demo-server && nodemon index.js",
+    "server": "cd ./our-awesome-mart-demo-server && node index.js",
+    "start": "cd ./our-awesome-mart-demo-client && node scripts/start.js",
+    "build": "cd ./our-awesome-mart-demo-client && node scripts/build.js",
+    "test": "cd ./our-awesome-mart-demo-client && node scripts/test.js",
+    "instServ": "cd ./our-awesome-mart-demo-server && npm install",
+    "instClient": "cd ./our-awesome-mart-demo-client && npm install",
+    "inst": "npm install && npm run instServ && npm run instClient",
+    "production": "npm run build",
+    "serve": "cd ./our-awesome-mart-demo-client && .serve -s build",
+    "servProd": "npm run production && npm run build && npm run serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}

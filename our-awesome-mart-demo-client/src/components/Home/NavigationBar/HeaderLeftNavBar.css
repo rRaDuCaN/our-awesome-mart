@@ -1,0 +1,23 @@
+.HeaderLeftNavBar {
+    flex-basis: 100%;
+    height: 3rem;
+    margin-left: 1rem;
+}
+
+.HeaderLeftNavBar .IntermediateWrapper {
+    flex-basis: auto;
+    height: auto;
+}
+
+/* .HeaderLeftNavBar .SVGMenuBackground {
+    background-color: transparent;
+    outline: none;
+    border-width: 0rem;
+    flex-basis: 45%;
+    height: 80%;
+} */
+
+.SVGAsset {
+    width: 2rem;
+    height: 2rem;
+}

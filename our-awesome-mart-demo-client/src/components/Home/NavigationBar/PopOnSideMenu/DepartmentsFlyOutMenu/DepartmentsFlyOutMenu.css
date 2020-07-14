@@ -1,0 +1,27 @@
+.DepartmentsFlyOutMenu {
+    width: calc(100% - 20rem);
+    right: 0em;
+    top: 0em;
+}
+
+.DepartmentsFlyOutMenu .PaddTop1 {
+    transform: translate(1rem);
+}
+
+.DepartmentsFlyOutMenu .MinMaxSize {
+    min-width: 160px;
+    flex-basis: 33%;
+}
+
+.DepartmentsFlyOutMenu .PaddRight {
+    transform: translateX(1rem);
+}
+
+.DepartmentsFlyOutMenu .AnchorsDepartmentsFlyOutMenuStyle {
+    box-shadow: none;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: none;
+}

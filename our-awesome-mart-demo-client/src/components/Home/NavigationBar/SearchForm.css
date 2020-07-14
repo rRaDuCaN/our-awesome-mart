@@ -1,0 +1,25 @@
+.SearchForm {
+    flex-basis: 55rem;
+    background-color: #ffffff;
+    height: 2.8rem;
+    position: relative;
+    visibility: visible;
+}
+
+@media screen and (max-width : 500px) {
+    .SearchForm.SearchForm.SearchForm.SearchForm {
+        flex-basis: auto;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .SearchForm.SearchForm.SearchForm {
+        flex-basis: 25rem;
+    }
+}
+
+@media screen and (max-width : 2000px) {
+    .SearchForm.SearchForm {
+        flex-basis: 40rem;
+    }
+}

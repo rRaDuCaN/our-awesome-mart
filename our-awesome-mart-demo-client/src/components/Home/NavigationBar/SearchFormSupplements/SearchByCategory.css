@@ -1,0 +1,33 @@
+.SearchByCategory {
+    border-width: 0rem;
+    background-color: #ffffff;
+}
+
+.SearchByCategory .CaretDown {
+    margin-top: 0.5rem;
+    width: 1.6rem;
+    height: 1.5rem;
+}
+
+.SearchByCategory .Align {
+    vertical-align: 0.5rem;
+}
+
+@media screen and (max-width : 800px) {
+    .SearchByCategory.SearchByCategory.SearchByCategory {
+        display: none;
+        flex-basis: 0%;
+        height: 0rem;
+    }
+}
+
+@media screen and (max-width : 2000px) {
+    .SearchByCategory.SearchByCategory {
+        flex-basis: 16rem;
+        display: block;
+        height: 2.8rem;
+    }
+    /* .SearchByCategory .Align.Align {
+        font-size: 1rem;
+    } */
+}

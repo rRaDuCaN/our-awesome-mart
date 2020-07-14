@@ -1,0 +1,430 @@
+.FurnitureDepartments {
+    grid-template-columns: 1fr;
+    grid-template-rows: 4rem auto 5rem auto 20rem;
+}
+
+.subcategoryColor {
+    color: #676767;
+    font-size: 0.9rem;
+}
+
+a[role="link"]:hover,
+a[role="link"]:active,
+a[role="link"]:visited {
+    text-decoration: underline;
+}
+
+a[data-link="top-navigation-link"]:active,
+a[data-link="top-navigation-link"]:visited,
+a[data-link="top-navigation-link"]:checked {
+    font-weight: 700;
+    color: #000000;
+}
+
+.borders {
+    border: 0.1px solid #e6e7e8;
+}
+
+.BestSeller {
+    width: 100%;
+    height: 1.9rem;
+}
+
+.enableDisableHiddenOffers {
+    width: 0rem;
+    height: 0rem;
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .enableDisableHiddenOffers.enableDisableHiddenOffers {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15rem;
+    }
+    .aligned-li {
+        text-align: center;
+    }
+}
+
+.LineStroke {
+    stroke: #5096b8;
+    stroke-linecap: round;
+    stroke-linejoin: miter;
+    fill: transparent;
+}
+
+.offers {
+    width: 80%;
+    margin-left: 15%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+}
+
+@media screen and (max-width: 800px) {
+    .offers {
+        width: 100%;
+        margin-left: 0%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .initialGridItem {
+        display: none;
+        color: #000000;
+        height: 3rem;
+    }
+}
+
+.ProductFlag {
+    text-align: center;
+    text-transform: uppercase;
+    fill: #5096b8;
+}
+
+.Footer {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.FurnitureDepartments .TopFilters {
+    /* background-color: cornflowerblue; */
+    flex-basis: 80%;
+    height: 2.5rem;
+}
+
+.FurnitureDepartments .MainProductView {
+    grid-template-columns: 15rem calc(100% - 15rem);
+    grid-template-rows: auto;
+}
+
+.FurnitureDepartments .MainProductView .SideFilters {
+    height: auto;
+}
+
+.FurnitureDepartments .MainProductView .SideFilters .Filters {
+    align-items: flex-start;
+}
+
+.FurnitureDepartments .MainProductView .SideFilters .Filters .Price {
+    width: 15rem;
+}
+
+li.PageSwitcherItemCharacteristics {
+    flex-basis: 20%;
+    height: 3rem;
+}
+
+a.PageSwitcherItem:hover {
+    border-bottom: 3px solid #cb2c90;
+}
+
+a.PageSwitcherItem:active {
+    border-bottom: 3px solid #cb2c90;
+}
+
+a.PageSwitcherItem:visited {
+    border-bottom: 3px solid #cb2c90;
+}
+
+a.PageSwitcherItem:checked {
+    border-bottom: 3px solid #cb2c90;
+}
+
+a.PageSwitcherItem:focus-visible {
+    border-bottom: 3px solid #cb2c90;
+}
+
+a.CurrentPage {
+    border-bottom: 3px solid #cb2c90;
+}
+
+button.PageSwitcherBtn {
+    border: 1px solid #000000;
+    outline: none;
+}
+
+img.Arrows {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+button.PageSwitcherBtn:hover {
+    border-width: 2px;
+}
+
+@media screen and (max-width: 800px) {
+    .PageSwitcherBtn.PageSwitcherBtn {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    .Arrows.Arrows {
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+
+    .PageSwitcher.PageSwitcher {
+        flex-basis: 90%;
+    }
+
+    .ProductPages.ProductPages {
+        flex-basis: 100%;
+    }
+}
+
+input[type="radio"]:checked {
+    font-weight: bold;
+}
+
+input[name="min"],
+input[name="max"] {
+    width: 3rem;
+    height: 2rem;
+    background-color: transparent;
+    outline: none;
+    border: unset;
+}
+
+label[for="fourStarsAndUp"],
+label[for="threeStarsAndUp"],
+label[for="twoStarsAndUp"],
+label[for="oneStarAndUp"] {
+    width: 65%;
+}
+ 
+div.Min,
+div.Max {
+    width: 4rem;
+    border: 1px solid #949499;
+    border-radius: 0.2rem;
+    background-color: transparent;
+}
+
+div.Min:hover,
+div.Max:hover {
+    border-color: #000000;
+}
+
+div.Min:focus,
+div.Max:focus {
+    outline: 2px solid #000000;
+}
+
+div.Min:focus,
+div.Max:focus-visible {
+    outline: 2px solid #000000;
+}
+
+div.PageSwitcherWrapper {
+    /* background-color: chartreuse; */
+    height: 4rem;
+}
+
+div.PageSwitcher {
+    /* background-color: orangered; */
+    flex-basis: 35%;
+    height: 3rem;
+}
+
+div.PriceSelector {
+    width: 10rem;
+    margin-left: 15%;
+}
+
+div.ProductTitle {
+    line-height: 1rem;
+}
+
+div.mgl0dot2 {
+    margin-left: 0.2rem;
+}
+
+div.ForAdditionalSelection {
+    height: 2.4rem;
+}
+
+/* div.UserHistoryNavigation {
+    
+} */
+
+div.Ratings {
+    height: 1.6rem;
+    width: 60%;
+}
+
+/* div.ProductPriceWithFulfillment {
+    height: 19rem;
+} */
+
+img.orientation-square {
+    width: 12.5rem;
+}
+
+nav.navigation {
+    width: 90%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+ul.DeliveryAndPickup,
+ul.SpecialOffers,
+ul.PriceList {
+    padding-inline-start: unset;
+}
+
+ul.ProductPages {
+    flex-basis: 80%;
+}
+
+
+
+/* span[role="history-link"] {
+    font-size: 0.9rem;
+} */
+
+.height200 {
+    height: 12.5rem;
+}
+
+.viewSelectors {
+    width: 2.5rem;
+    height: 2.2rem;
+}
+
+.FurnitureDepartments .MainProductView .ProductGalleryWrapper .Intermediate {
+    width: 98.5%;
+}
+
+.FurnitureDepartments .MainProductView .ProductGalleryWrapper .Intermediate .ProductGallery {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    padding-inline-start: unset;
+}
+
+.img-order {
+    order: 0;
+}
+
+.descr-order {
+    order: 1;
+}
+
+.adjusted-nav-items {
+        flex-wrap: wrap;
+}
+
+@media screen and (max-width: 900px) {
+    .FurnitureDepartments .MainProductView .ProductGalleryWrapper .Intermediate.Intermediate {
+        width: 100%;
+    }
+
+    .FurnitureDepartments .MainProductView .ProductGalleryWrapper .Intermediate .ProductGallery.ProductGallery.ProductGallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .FurnitureDepartments .MainProductView .ProductGalleryWrapper .Intermediate .ProductList .CartWrapper .CartList.CartList {
+        flex-direction: column;
+    }
+
+    .img-order .img-order {
+        order: 1;
+    }
+
+    .descr-order .descr-order {
+        order: 0;
+    }
+
+    /* .adjusted-nav-items .adjusted-nav-items {
+
+    } */
+
+    .mobile-side-filters {
+        display: flex;
+    }
+
+    .FurnitureDepartments .MainProductView.MainProductView {
+        grid-template-columns: auto;
+        grid-template-rows: 2fr;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .FurnitureDepartments .MainProductView .ProductGalleryWrapper .Intermediate .ProductGallery.ProductGallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .FurnitureDepartments .MainProductView .ProductGalleryWrapper .Intermediate .ProductGallery {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.FurnitureDepartments .MainProductView .ProductGalleryWrapper .Intermediate .ProductList {
+    /* background-color: darkgoldenrod; */
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding-inline-start: unset;
+}
+
+.FurnitureDepartments .MainProductView .ProductGalleryWrapper .Intermediate .ProductGallery .CartWrapper,
+.FurnitureDepartments .MainProductView .ProductGalleryWrapper .Intermediate .ProductList .CartWrapper {
+    /* background-color: darkorange; */
+    border-bottom: 0.1px solid #e7e8e9;
+}
+
+.FurnitureDepartments .MainProductView .ProductGalleryWrapper .Intermediate .ProductGallery .CartWrapper .Cart {
+    width: 85%;
+    transform: translateX(10%);
+    grid-template-rows: 2.8rem 12.5rem 2.4rem 8rem 1.6rem auto;
+}
+
+.FurnitureDepartments .MainProductView .ProductGalleryWrapper .Intermediate .ProductList .CartWrapper .CartList {
+    width: 85%;
+    transform: translateX(10%);
+}
+
+.FurnitureDepartments
+    .MainProductView
+    .ProductGalleryWrapper
+    .Intermediate
+    .ProductGallery
+    .CartWrapper
+    .Cart
+    .ProductIsWrapper,
+    .FurnitureDepartments
+    .MainProductView
+    .ProductGalleryWrapper
+    .Intermediate
+    .ProductList
+    .CartWrapper
+    .CartList
+    .ProductIsWrapper {
+    position: relative;
+    /* height: 1.9rem; */
+}
+
+.FurnitureDepartments
+    .MainProductView
+    .ProductGalleryWrapper
+    .Intermediate
+    .ProductGallery
+    .CartWrapper
+    .Cart
+    .ProductIsWrapper
+    .ProductIs,
+    .FurnitureDepartments
+    .MainProductView
+    .ProductGalleryWrapper
+    .Intermediate
+    .ProductList
+    .CartWrapper
+    .Cart
+    .ProductIsWrapper
+    .ProductIs {
+    position: absolute;
+    transform: translateY(0.5rem);
+}
