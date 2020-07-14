@@ -8,8 +8,6 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 4000; 
 
-// app.use('/static', express.static(path.join(__dirname, 'public')));
-
 const server = new ApolloServer({ typeDefs, resolvers });
 
 // integrate with express framework
